@@ -26,7 +26,7 @@ Welcome to **GuessMaster** — a simple yet engaging graphical number guessing g
 
 ```plain
 GuessMaster/
-├── game.cpp          # Main source code file
+├── GuessMaster.cpp          # Main source code file
 ├── Executables/GuessMaster       # Precompiled Linux executable (rename if necessary)
 ├── LICENSE           # licensed under the MIT License
 └── README.md         # Project documentation
@@ -66,7 +66,7 @@ sudo apt install libsfml-dev
 To build the game from source:
 
 ```bash
-g++ game.cpp -o GuessMaster -lsfml-graphics -lsfml-window -lsfml-system
+g++ GuessMaster.cpp -o GuessMaster -lsfml-graphics -lsfml-window -lsfml-system
 ./GuessMaster
 ```
 
